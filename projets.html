@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Projets - Arthur Bernard</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <header id="header">
+                <a href="index2.html" class="title">Arthur Bernard</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="projets.html" class="active">Projets BTS</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+        <div id="wrapper">
+
+                <section id="main" class="wrapper">
+                        <div class="inner">
+                            <h1 class="major">Supervision de la qualité de l'eau d'un bassin ornemental</h1>
+                            
+                            <span class="image fit">
+                                <img src="images/bassin_ornemental.jpg" alt="Bassin ornemental" />
+                                <p><em>Vue du bassin ornemental faisant l'objet de la supervision.</em></p>
+                            </span>
+
+                            <h2>Contexte du projet</h2>
+                            <p>Dans le cadre de l'épreuve E6 du BTS CIEL (Option IR), ce projet vise à automatiser la surveillance de la biodiversité d'un bassin sans traitement chimique. L'objectif est de remplacer les tests chimiques manuels par une solution de supervision connectée via une Raspberry Pi.</p>
+
+                            <h2>Mes Missions : Équipe Web - Rôle E2 (Back-office & Back-end)</h2>
+                            <p>Au sein de l'équipe Web, je suis responsable de la persistance des données et de l'intelligence métier du système.</p>
+                            
+                            <span class="image fit">
+                                <img src="images/supervision_dashboard.jpg" alt="Interface de supervision" />
+                                <p><em>Interface de supervision et tableau de bord en quasi-temps-réel.</em></p>
+                            </span>
+
+                            <h3>Réalisations techniques :</h3>
+                            <ul>
+                                <li><strong>Développement Back-end :</strong> Utilisation d'un langage orienté objet couplé à un Système de Gestion de Bases de Données (SGBD) pour assurer la persistance des mesures de capteurs (température, pH, oxygène).</li>
+                                <li><strong>API & Back-office :</strong> Implantation de la partie configuration via Python (Django) ou PHP pour permettre au superviseur de définir les seuils critiques (température, pH, taux d'oxygène).</li>
+                                <li><strong>Système d'Alerte :</strong> Mise en place d'un service d'alerte par courriel pour prévenir en cas de variation brutale des paramètres de l'eau.</li>
+                                <li><strong>Gestion des Paramètres :</strong> Développement des fonctionnalités permettant de sauvegarder, consulter et restaurer les précédents paramétrages du système.</li>
+                            </ul>
+
+                            <h3>Technologies utilisées :</h3>
+                            <div class="table-wrapper">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Domaine</th>
+                                            <th>Technologie</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Langage principal</td>
+                                            <td>Python 3.13 / PHP 8.4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Framework Web</td>
+                                            <td>Django </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Infrastructure</td>
+                                            <td>Raspberry Pi 5 sous OS Bookworm </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Communication</td>
+                                            <td>API REST / MQTT 5.0 </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <ul class="actions">
+                                <li><a href="index.html" class="button">Retour à l'accueil</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+            </div>
+
+        <footer id="footer" class="wrapper alt">
+                <div class="inner">
+                    <ul class="menu">
+                        <li>&copy; Arthur Bernard. Tous droits réservés.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+        <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
